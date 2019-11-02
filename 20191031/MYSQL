@@ -1,0 +1,17 @@
+insert into ch7_order VALUES 
+(null,"product1", "100", "it's 100 dollors"),
+(null,"product2", "200", "it's 200 dollors"), 
+(null,"product3", "300", "it's 300 dollors"), 
+(null,"product4", "400", "it's 400 dollors"),
+(null,"product5", "500", "it's 500 dollors")
+
+
+SELECT
+t3.id as "訂單編號",
+t1.name as "購買人",
+t2.product_name as "商品名稱",
+t3.order_num as "購買數量",
+(t2.product_price*t3.order_num) as "消費金額",
+t3.order_time as "訂單時間"
+FROM ch7_customer as t1, ch7_product as t2, ch7_order as t3 
+WHERE t1.id=t3.customer_sn AND t2.id=t3.product_sn
