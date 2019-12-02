@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  
     <div class="main">
         <form action="api.php" method="post" enctype="multipart/form-data">
         你的名字 <input type="text" name="name" value="NaiHui" size="20"><br><br>

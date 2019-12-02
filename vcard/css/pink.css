@@ -19,12 +19,12 @@ body {
 .bgName {
   font-family: "Dancing Script", cursive;
   color: rgba(255, 255, 255, 0.283);
-  font-size: 25rem;
+  font-size: 30rem;
   font-weight: bold;
   position: absolute;
   z-index: -1;
-  top: 35%;
-  left: 50%;
+  top: 70%;
+  right: -65%;
   transform: translate(-50%, -50%);
   border-bottom: 10px dashed rgba(255, 255, 255, 0.283);
 }
@@ -67,7 +67,7 @@ body {
   top: -60px;
 }
 
-.abName{
+.abName {
   color:#ffffff;
   font-size:3em;
   font-weight:bolder;
@@ -75,14 +75,12 @@ body {
 }
 
 .text {
-  width: 400px;
+  width: 350px;
   height: 50%;
   padding-left: 40px;
   line-height: 1.5;
-  overflow: scroll;
+  overflow: hidden;
 }
-
-.text::-webkit-scrollbar {display:none}
 
 /* 項目標題 */
 .item {
@@ -99,3 +97,7 @@ body {
   font-weight: 900;
   text-shadow: 2px 2px 5px rgb(36, 35, 35);
 }
+
+
+
+

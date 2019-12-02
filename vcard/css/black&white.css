@@ -20,8 +20,6 @@ body {
 .main {
   height: 100vh;
   position: relative;
-  border: 5px solid white;
-  padding: 10px;
 }
 
 .bgName {
@@ -30,20 +28,20 @@ body {
     linear,
     left top,
     right bottom,
-    from(#0000002d),
+    from(#f0f0f02d),
     to(#ffffff4c)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: rgba(255, 255, 255, 0.283);
-  font-size: 25rem;
+  font-size: 30rem;
   font-weight: bold;
   position: absolute;
   z-index: -1;
-  top: 35%;
-  left: 50%;
+  top: 70%;
+  right: -65%;
   transform: translate(-50%, -50%);
-  /* border-bottom: 10px solid rgba(158, 156, 156, 0.283); */
+  border-bottom: 10px solid rgba(216, 213, 213, 0.283);
 }
 
 .d-flex {
@@ -94,11 +92,11 @@ body {
 }
 
 .text {
-  width: 300px;
+  width: 350px;
   height: 50%;
   padding-left: 40px;
   line-height: 1.5;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /* 項目標題 */
