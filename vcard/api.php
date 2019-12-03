@@ -27,12 +27,12 @@
     // print_r($_POST);
     // echo "<hr>";
     // print_r($_FILES);
-    // session_unset();
     if($_SESSION['data']['vcardstyle']!="randColor.php"){
         header("location:preview.php");
     }else{
         header("location:randColor.php");
     }
+    // session_unset();
     
     ?>
     <!-- <img src="img_upload/<?= time() ?>-<?= $_FILES['pic']['name'] ?>" width="300px"> -->

@@ -78,6 +78,7 @@ echo '<body style="background:'.$bgCol.'">';
             </div>
         </div>
     </div>
+
 <?php
 echo '</body>';
 ?>

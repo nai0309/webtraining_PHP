@@ -21,8 +21,6 @@
     <!-- css樣式 -->
     <link rel="stylesheet" href="css/<?= $_SESSION['data']['vcardstyle'] ?>">
 
-
-
 </head>
 
 <body>
@@ -58,6 +56,7 @@
                 </div>
             </div>
         </div>
+        <div class="footer"></div>
     </div>
 
     <!-- Optional JavaScript -->
