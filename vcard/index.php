@@ -9,8 +9,6 @@
 
     <!-- 表格樣式 -->
     <link rel="stylesheet" href="css/form-style.css" />
-    <!-- css reset -->
-    <link rel="stylesheet" href="css/reset.css" />
 
     <style>
 
