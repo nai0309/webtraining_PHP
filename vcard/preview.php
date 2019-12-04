@@ -26,10 +26,11 @@
 <body>
     <div class="container">
         <!-- 彈性盒 -->
-        <div class="main">
+        <div class="main row vh-100 d-flex justify-content-center align-items-center">
+            <!-- 背景文字 -->
             <span class="bgName"><?= $_SESSION['data']['name'] ?></span>
-            <div class="d-flex">
-                <div class="box pic">
+            <div class="row h-75 align-items-end">
+                <div class="col-12 col-md-6 box pic">
                     <!-- 圖片 -->
                     <img src="img_upload/<?= $_SESSION['data']['pic'] ?>">
                     <!-- 名字 -->
@@ -38,9 +39,8 @@
                         <span class="abName"><?= $_SESSION['data']['name'] ?></span>
                     </div>
                 </div>
-                <div class="scroll-box">
-                    <div class="text">
-                        <!-- 個人資料 -->
+                <div class="col-12 col-md-6 text mt-5 mt-md-0">
+                     <!-- 個人資料 -->
                         <span class="item">Occupation.</span><br>
                         <span class="content"><?= $_SESSION['data']['job'] ?></span>
                         <br>
@@ -52,18 +52,21 @@
                         <br>
                         <span class="item">Ability.</span><br>
                         <span class="content"><?= $_SESSION['data']['skills'] ?></span>
-                    </div>
+                    
                 </div>
+                <div class="col h-25 d-flex justify-content-center align-items-start px-0">
+                        <button onclick="window.history.go(-1)" class="btn btn-warning btn-sm text-white">回頁面</button>
+                    </div>
+
             </div>
         </div>
-        <div class="footer"></div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
 </body>
 
