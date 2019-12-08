@@ -65,7 +65,7 @@
                             <textarea class="form-control" id="FormControlSkills" name="skills">熟悉服飾、旅遊、美妝保養、家電、食品等廣告文案撰寫</textarea>
                             <!-- 選擇版型 -->
                             選擇版型<select class="form-control form-control-sm mt-2" name="vcardstyle">
-                                <option value="pink.css" selected>微甜少女粉</option>
+                                <option value="pink.css" selected>微甜少女風</option>
                                 <option value="coder.css">尬電coder風</option>
                                 <option value="black&white.css">高冷簡約風</option>
                                 <option value="randColor.php">選擇障礙隨機配色</option>

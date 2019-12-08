@@ -65,9 +65,9 @@ body {
   content: "";
   position: absolute;
   top: 25px;
-  right: -25px;
+  right: -15px;
   bottom: -25px;
-  left: 25px;
+  left: 45px;
   border: 7px dotted #FFDC0C;
   border-radius: 20px;
   transform: scale(1);
@@ -87,11 +87,14 @@ body {
 }
 
 .text {
-  width: 350px;
-  height: 50%;
+  /* width: 350px; */
+  /* height: 50%; */
   padding-left: 40px;
   line-height: 1.5;
   overflow: hidden;
+  background: rgba(255,255,255,0.4);
+  border-radius: 20px;
+  text-shadow: 3px 3px 3px rgba(180, 180, 180, 0.781);
 }
 
 /* 項目標題 */
@@ -103,6 +106,7 @@ body {
   font-size: 14px;
   font-weight: 900;
   font-family: "Concert One", cursive;
+  text-decoration: underline;
 }
 
 /* 項目內容 */
