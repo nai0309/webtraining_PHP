@@ -6,22 +6,22 @@ function wcomeGame() {
     imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
     imageHeight: 300,
     imageAlt: `Oops!~image is broken!`,
-    title: `水煮蛋肌保養機密破解！`,
-    text: `先為自己取一個命定主角名吧～`,
+    title: `懂吃不發胖小測驗`,
+    text: `請先輸入你的吃貨名`,
     input: `text`,
-    inputValue:`姊的美免開濾鏡`,
+    inputValue:`無名愛吃鬼`,
     confirmButtonText: `確定`,
     cancelButtonText: `懶得取`,
     showCancelButton: true,
     allowOutsideClick: false
   }).then((ans) => {
     if (ans.dismiss === 'cancel') { //不輸入名字，使用noName
-      name = '保養懶人';
+      name = '發胖大師';
       swal.fire({
         imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
         imageHeight: 300,
         imageAlt: `Oops!~image is broken!`,
-        title: `我已經看出你的懶潛力了！`,
+        title: `懶得取名？`,
         text: `那就稱你為${name}吧～`,
         confirmButtonText: `開始遊戲`,
         cancelButtonText: `反悔自己取`,
@@ -47,8 +47,8 @@ function wcomeGame() {
         imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
         imageHeight: 300,
         imageAlt: `Oops!~image is broken!`,
-        title: `${name}`,
-        text: `從你取的名字，就能看出你想變美的決心！`,
+        title: `哈嘍～${name}`,
+        text: `帶著你的吃貨魂，讓我們看看你是不是懂吃懂挑不發胖！`,
         confirmButtonText: `開始遊戲`,
         cancelButtonText: `重新命名`,
         showCancelButton: true,
@@ -76,10 +76,10 @@ function gameOn() { //開始遊戲
     imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
     imageHeight: 300,
     imageAlt: `Oops!~image is broken!`,
-    title: `別小看基礎保養的重要性！`,
-    text: `做得好出門根本自帶soptlight！`,
-    confirmButtonText: `自信滿分，開始吧！`,
-    cancelButtonText: `懶人魂上身，改天吧...`,
+    title: ``,
+    text: ``,
+    confirmButtonText: ``,
+    cancelButtonText: ``,
     showCancelButton: true,
     allowOutsideClick: false
   }).then((ans) => {
@@ -105,10 +105,10 @@ function gameOn() { //開始遊戲
           imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
           imageHeight: 300,
           imageAlt: `Oops!~image is broken!`,
-          title: `回家的第1步`,
-          text: `在外奔波整日，馬路的髒空氣和細菌充滿整臉，一到家你會…`,
-          confirmButtonText: `立馬卸妝`,
-          cancelButtonText: `攤在沙發上廢`,
+          title: `第1關.無麵不歡愛麵族`,
+          text: `一包50g王子麵＆50g烏龍麵，熱量誰比較低？`,
+          confirmButtonText: `滷味必點王子麵`,
+          cancelButtonText: `咀嚼感滿分烏龍麵`,
           showCancelButton: true,
           allowOutsideClick: false
         }).then((ans) => {
@@ -134,10 +134,10 @@ function gameOn() { //開始遊戲
                 imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                 imageHeight: 300,
                 imageAlt: `Oops!~image is broken!`,
-                title: `story 2`,
-                text: `story line 2`,
-                confirmButtonText: `yes, ans.`,
-                cancelButtonText: `no, ans.`,
+                title: `保養第2步.`,
+                text: `卸妝後關鍵！多做這步才能真正趕跑粉刺、黑頭，你覺得會是...`,
+                confirmButtonText: `只卸妝不夠，要再洗一次臉`,
+                cancelButtonText: `卸好妝當然直接上保養品！`,
                 showCancelButton: true,
                 allowOutsideClick: false
               }).then((ans) => {
@@ -146,8 +146,8 @@ function gameOn() { //開始遊戲
                     imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                     imageHeight: 300,
                     imageAlt: `Oops!~image is broken!`,
-                    title: `game over`,
-                    text: `story line`,
+                    title: `Game over！`,
+                    text: `親～卸妝只是將表面髒東西洗掉是不夠的，要再洗一次才能深層清潔毛孔。`,
                     allowOutsideClick: false
                   });
                 } else {
@@ -155,16 +155,16 @@ function gameOn() { //開始遊戲
                     imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                     imageHeight: 300,
                     imageAlt: `Oops!~image is broken!`,
-                    title: `game`,
-                    text: `story line`,
+                    title: `卸後洗臉才能深層清潔毛孔！`,
+                    text: `不錯喔～看來你平常都有好好做清潔，多餘油脂、粉刺、黑頭不想跟你分手都難！`,
                     allowOutsideClick: false
                   }).then(() => {
                     swal.fire({
                       imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                       imageHeight: 300,
                       imageAlt: `Oops!~image is broken!`,
-                      title: `story 3`,
-                      text: `story line 3`,
+                      title: `保養第3步.`,
+                      text: `懂清潔就對一半了！`,
                       confirmButtonText: `yes, ans.`,
                       cancelButtonText: `no, ans.`,
                       showCancelButton: true,
@@ -175,7 +175,7 @@ function gameOn() { //開始遊戲
                           imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                           imageHeight: 300,
                           imageAlt: `Oops!~image is broken!`,
-                          title: `game over`,
+                          title: `Game over！`,
                           text: `story line`,
                           allowOutsideClick: false
                         });
@@ -204,7 +204,7 @@ function gameOn() { //開始遊戲
                                 imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                                 imageHeight: 300,
                                 imageAlt: `Oops!~image is broken!`,
-                                title: `game over`,
+                                title: `Game over！`,
                                 text: `story line`,
                                 allowOutsideClick: false
                               });
@@ -233,7 +233,7 @@ function gameOn() { //開始遊戲
                                       imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
                                       imageHeight: 300,
                                       imageAlt: `Oops!~image is broken!`,
-                                      title: `game over`,
+                                      title: `Game over！`,
                                       text: `story line`,
                                       allowOutsideClick: false
                                     });
