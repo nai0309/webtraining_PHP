@@ -48,7 +48,7 @@ function wcomeGame() {
         imageHeight: 300,
         imageAlt: `Oops!~image is broken!`,
         title: `${name}`,
-        text: `歡迎加入變美的行列，從你取的名字，就能看出你想變美的決心！`,
+        text: `從你取的名字，就能看出你想變美的決心！`,
         confirmButtonText: `開始遊戲`,
         cancelButtonText: `重新命名`,
         showCancelButton: true,
@@ -88,7 +88,7 @@ function gameOn() { //開始遊戲
         imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
         imageHeight: 300,
         imageAlt: `Oops!~image is broken!`,
-        title: `男/女神顏又離你更遠了...`,
+        title: `男/女神顏又離你更遠了...`,
         text: `沒關係！我們永遠在這期盼你的回頭～`,
         allowOutsideClick: false
       });
@@ -105,10 +105,10 @@ function gameOn() { //開始遊戲
           imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
           imageHeight: 300,
           imageAlt: `Oops!~image is broken!`,
-          title: `story 1`,
-          text: `story line 1`,
-          confirmButtonText: `yes, ans.`,
-          cancelButtonText: `no, ans.`,
+          title: `回家的第1步`,
+          text: `在外奔波整日，馬路的髒空氣和細菌充滿整臉，一到家你會…`,
+          confirmButtonText: `立馬卸妝`,
+          cancelButtonText: `攤在沙發上廢`,
           showCancelButton: true,
           allowOutsideClick: false
         }).then((ans) => {
@@ -117,8 +117,8 @@ function gameOn() { //開始遊戲
               imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
               imageHeight: 300,
               imageAlt: `Oops!~image is broken!`,
-              title: `game over`,
-              text: `story line`,
+              title: `Game over！`,
+              text: `親！你安內毋湯，毛孔被堵住粉刺會爆走啊！`,
               allowOutsideClick: false
             });
           } else {
@@ -126,8 +126,8 @@ function gameOn() { //開始遊戲
               imageUrl: `https://i.pinimg.com/474x/9d/2e/07/9d2e076d57810ffdb5a0318b7c5e90dd.jpg`,
               imageHeight: 300,
               imageAlt: `Oops!~image is broken!`,
-              title: `game`,
-              text: `story line`,
+              title: `卸妝絕對是保養第一步！`,
+              text: `無論是男是女，上妝與否，都別忘記卸妝，室外的髒汙才不會附著在臉上！`,
               allowOutsideClick: false
             }).then(() => {
               swal.fire({
